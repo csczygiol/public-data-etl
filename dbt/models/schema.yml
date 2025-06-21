@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: staging_weather
+  - description: "Staging model for raw weather data"
+    columns:
+      - name: city
+        description: "City name"
+        tests:
+          - not_null
+      - name: temperature
+        description: "Temperature in Celsius"
+        tests:
+          - not_null
+      - name: humidity
+        description: "Humidity percentage"
+      - name: weather
+        description: "Weather condition description"
+      - name: recorded_at
+        description: "Timestamp of the weather"
+        tests:
+          - not_null
+
+  - name: fct_avg_temp_by_city
+    description: "Aggregated average temperature per city per day"
+    columns: 
+      - name: city
+        description: "City name"
+        tests:
+          - not_null
+      - name: day
+        description: "Date of aggregation"
+        tests:
+          - not_null
+      - name: avg_temperature
+        description: "Average temperature"
