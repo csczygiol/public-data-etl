@@ -5,4 +5,4 @@ select
     humidity,
     weather,
     timestamp::timestamp as recorded_at
-from {{ source('weather_source', 'weather') }}
+from "weather_values"."public"."weather"

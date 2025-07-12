@@ -3,5 +3,5 @@ select
     city,
     date_trunc('day', recorded_at) as day,
     avg(temperature) as avg_temperature
-from {{ ref('staging_weather') }}
+from "weather_values"."weather"."staging_weather"
 group by city, day

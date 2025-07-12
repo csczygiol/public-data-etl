@@ -11,5 +11,5 @@ my_weather_project:
       schema: weather
 
 # add this to the readme later on 
-# $env:DBT_POSTGRES_USER = "dbt_user"
+# $env:DBT_POSTGRES_USER = "postgres"
 # $env:DBT_POSTGRES_PASSWORD = "dbt_pass123"

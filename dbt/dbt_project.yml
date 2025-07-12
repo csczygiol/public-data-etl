@@ -1,0 +1,11 @@
+name: public_data_etl
+version: '1.0'
+config-version: 2
+
+profile: my_weather_project
+
+model-paths: ["models"]
+
+models:
+  public_data_etl:
+    +materialized: view

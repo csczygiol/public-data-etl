@@ -1,0 +1,1319 @@
+[0m20:23:50.697472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A984FFD0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A987033130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A987033310>]}
+
+
+============================== 20:23:50.701332 | 991bf319-d3fe-4cef-954f-ed2fefbc692f ==============================
+[0m20:23:50.701332 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:23:50.701332 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:23:50.705451 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\csczy\Documents\public-data-etl\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:23:50.708715 [debug] [MainThread]: Command `dbt run` failed at 20:23:50.705451 after 0.49 seconds
+[0m20:23:50.711100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A984FFD0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A987033040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A987033070>]}
+[0m20:23:50.712894 [debug] [MainThread]: Flushing usage events
+[0m20:23:51.349310 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:32:22.431770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD8F0D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD9F7ADA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD9F7AF80>]}
+
+
+============================== 20:32:22.437706 | 2e98468d-d90c-4f34-bfc5-e401550ac2b2 ==============================
+[0m20:32:22.437706 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:32:22.440271 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:32:22.444642 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'public_data_etl'
+[0m20:32:22.446651 [debug] [MainThread]: Command `dbt run` failed at 20:32:22.446651 after 0.57 seconds
+[0m20:32:22.449289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD8F0D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD9F79F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BD9F7AC50>]}
+[0m20:32:22.452378 [debug] [MainThread]: Flushing usage events
+[0m20:32:23.093460 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:33:37.570307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002712E65D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027130696830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027130696A10>]}
+
+
+============================== 20:33:37.580363 | 92ff9ae0-5a4d-423e-9991-bcefe96139d7 ==============================
+[0m20:33:37.580363 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:33:37.584625 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:33:37.589541 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'public_data_etl'
+[0m20:33:37.591761 [debug] [MainThread]: Command `dbt run` failed at 20:33:37.591761 after 0.46 seconds
+[0m20:33:37.595257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002712E65D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027130695A20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000271306966E0>]}
+[0m20:33:37.599252 [debug] [MainThread]: Flushing usage events
+[0m20:33:38.337203 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:35:19.585486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001504732D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015048396830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015048396A10>]}
+
+
+============================== 20:35:19.590028 | 89875838-d2b0-45a9-829d-bbd8b41878bb ==============================
+[0m20:35:19.590028 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:35:19.594340 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:35:19.601556 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_POSTGRES_USER'
+[0m20:35:19.610308 [debug] [MainThread]: Command `dbt run` failed at 20:35:19.609296 after 0.36 seconds
+[0m20:35:19.611835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001504732D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015048394C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000150483948E0>]}
+[0m20:35:19.613836 [debug] [MainThread]: Flushing usage events
+[0m20:35:20.302970 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:36:44.551867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225B3FD090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225C466830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225C466A10>]}
+
+
+============================== 20:36:44.560405 | 9b5e0ead-c22c-4694-91b8-13d39d2ef782 ==============================
+[0m20:36:44.560405 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:36:44.560405 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:36:45.160464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9b5e0ead-c22c-4694-91b8-13d39d2ef782', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222587699C0>]}
+[0m20:36:45.312349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9b5e0ead-c22c-4694-91b8-13d39d2ef782', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225C464E20>]}
+[0m20:36:45.314350 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:36:46.051487 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:36:46.053508 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:36:46.054509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9b5e0ead-c22c-4694-91b8-13d39d2ef782', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225C692470>]}
+[0m20:36:46.080060 [error] [MainThread]: Encountered an error:
+Parsing Error
+  The schema file at models\schema.yml is invalid because a list element for 'models' does not have a name attribute.
+[0m20:36:46.080060 [debug] [MainThread]: Command `dbt run` failed at 20:36:46.080060 after 2.18 seconds
+[0m20:36:46.082841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225B3FD090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225C691870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002225C6907F0>]}
+[0m20:36:46.084855 [debug] [MainThread]: Flushing usage events
+[0m20:36:46.793299 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:40:29.921746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D744A0D150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D746A430D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D746A432B0>]}
+
+
+============================== 20:40:29.930413 | 61fb6e1e-ef0e-4e43-9132-20f6b291f87a ==============================
+[0m20:40:29.930413 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:40:29.932436 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:40:30.294438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '61fb6e1e-ef0e-4e43-9132-20f6b291f87a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D742D490F0>]}
+[0m20:40:30.411337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '61fb6e1e-ef0e-4e43-9132-20f6b291f87a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7461A6EF0>]}
+[0m20:40:30.413368 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:40:30.993266 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:40:30.995386 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:40:30.996404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '61fb6e1e-ef0e-4e43-9132-20f6b291f87a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D746C735E0>]}
+[0m20:40:34.026377 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.public_data_etl.staging_weather' (models\staging_weather.sql) depends on a source named 'weather_source.weather' which was not found
+[0m20:40:34.029404 [debug] [MainThread]: Command `dbt run` failed at 20:40:34.029404 after 4.65 seconds
+[0m20:40:34.030432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D744A0D150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7470CA740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7470CA710>]}
+[0m20:40:34.031966 [debug] [MainThread]: Flushing usage events
+[0m20:40:34.627833 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:43:32.928543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC686D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC78D6830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC78D6A10>]}
+
+
+============================== 16:43:32.934996 | 08596082-0db1-43d2-9744-7d2ac752fc3e ==============================
+[0m16:43:32.934996 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:43:32.943077 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m16:43:33.617888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '08596082-0db1-43d2-9744-7d2ac752fc3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC690F550>]}
+[0m16:43:33.729002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '08596082-0db1-43d2-9744-7d2ac752fc3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC78D4E20>]}
+[0m16:43:33.729002 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:43:34.376158 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m16:43:34.376158 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:43:34.376158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '08596082-0db1-43d2-9744-7d2ac752fc3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC7B038B0>]}
+[0m16:43:37.079095 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.public_data_etl.staging_weather' (models\staging_weather.sql) depends on a source named 'weather_source.weather' which was not found
+[0m16:43:37.081104 [debug] [MainThread]: Command `dbt run` failed at 16:43:37.081104 after 4.74 seconds
+[0m16:43:37.083934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC686D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC8F29D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCC8F2A2F0>]}
+[0m16:43:37.084982 [debug] [MainThread]: Flushing usage events
+[0m16:43:37.766675 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:45:37.324657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF6595D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF669C6830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF669C6A10>]}
+
+
+============================== 16:45:37.328086 | c1b7e878-99f8-4961-9081-e13c9bfd4d4e ==============================
+[0m16:45:37.328086 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:45:37.334616 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt clean', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:45:37.564736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c1b7e878-99f8-4961-9081-e13c9bfd4d4e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF635399C0>]}
+[0m16:45:37.657661 [debug] [MainThread]: Command `dbt clean` succeeded at 16:45:37.657661 after 0.89 seconds
+[0m16:45:37.657661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF6595D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF66A84040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF66A864D0>]}
+[0m16:45:37.657661 [debug] [MainThread]: Flushing usage events
+[0m16:45:38.225245 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:45:47.464820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C694D120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C79AF220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C79AF400>]}
+
+
+============================== 16:45:47.464820 | 8c6792e0-1013-4193-ae19-8dd5024e0a77 ==============================
+[0m16:45:47.464820 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:45:47.464820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt deps', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:45:47.703822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8c6792e0-1013-4193-ae19-8dd5024e0a77', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C3CB8430>]}
+[0m16:45:47.756541 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:45:47.764723 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:45:47.764723 [debug] [MainThread]: Command `dbt deps` succeeded at 16:45:47.764723 after 0.63 seconds
+[0m16:45:47.764723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C694D120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C79AF0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000125C7A76560>]}
+[0m16:45:47.764723 [debug] [MainThread]: Flushing usage events
+[0m16:45:48.299399 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:48:51.888670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5A4FD0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5C536830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5C536A10>]}
+
+
+============================== 16:48:51.894930 | 8a73b9b5-8699-4ac7-aa9d-c1bfa16eb423 ==============================
+[0m16:48:51.894930 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:48:51.900145 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m16:48:52.142173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8a73b9b5-8699-4ac7-aa9d-c1bfa16eb423', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5B5995A0>]}
+[0m16:48:52.174731 [debug] [MainThread]: Command `dbt clean` succeeded at 16:48:52.174731 after 0.65 seconds
+[0m16:48:52.180602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5A4FD0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5BC5B220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB5C5F6DD0>]}
+[0m16:48:52.183802 [debug] [MainThread]: Flushing usage events
+[0m16:48:52.855040 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:49:01.708138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5044BD0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5064F6830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5064F6A10>]}
+
+
+============================== 16:49:01.712160 | ea9d5446-c7c2-4898-8d4c-85a037f49e84 ==============================
+[0m16:49:01.712160 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:49:01.714702 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:49:02.064708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ea9d5446-c7c2-4898-8d4c-85a037f49e84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E506666680>]}
+[0m16:49:02.166336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ea9d5446-c7c2-4898-8d4c-85a037f49e84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5064F4E20>]}
+[0m16:49:02.173949 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:49:02.766213 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m16:49:02.766213 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:49:02.771906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ea9d5446-c7c2-4898-8d4c-85a037f49e84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E506723160>]}
+[0m16:49:05.279696 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.public_data_etl.fct_avg_temp_by_city' (models\fct_avg_temp_by_city.sql) depends on a node named 'stg_weather' which was not found
+[0m16:49:05.281700 [debug] [MainThread]: Command `dbt run` failed at 16:49:05.281700 after 3.91 seconds
+[0m16:49:05.282701 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5044BD0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E507B901C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E507AA7DC0>]}
+[0m16:49:05.284888 [debug] [MainThread]: Flushing usage events
+[0m16:49:05.863230 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:51:28.771639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E083FD120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E09463220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E09463400>]}
+
+
+============================== 16:51:28.782299 | 3a5f5a10-0131-484c-b48d-e5708c6a55b3 ==============================
+[0m16:51:28.782299 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:51:28.785157 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt clean', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:51:29.034925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3a5f5a10-0131-484c-b48d-e5708c6a55b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E05F69090>]}
+[0m16:51:29.065055 [debug] [MainThread]: Command `dbt clean` succeeded at 16:51:29.065055 after 0.65 seconds
+[0m16:51:29.066412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E083FD120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E09526B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E09526560>]}
+[0m16:51:29.068284 [debug] [MainThread]: Flushing usage events
+[0m16:51:29.674989 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:51:35.264802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3D3D9180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3E446800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3E4469E0>]}
+
+
+============================== 16:51:35.276464 | 8e070bdc-31a1-4832-8f5b-f2b325fa3bd0 ==============================
+[0m16:51:35.276464 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:51:35.278477 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:51:35.613814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8e070bdc-31a1-4832-8f5b-f2b325fa3bd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3A749120>]}
+[0m16:51:35.723981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8e070bdc-31a1-4832-8f5b-f2b325fa3bd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3DB6B640>]}
+[0m16:51:35.726392 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:51:36.306693 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m16:51:36.308707 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:51:36.308707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8e070bdc-31a1-4832-8f5b-f2b325fa3bd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3E6700A0>]}
+[0m16:51:38.872119 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.public_data_etl.fct_avg_temp_by_city' (models\fct_avg_temp_by_city.sql) depends on a node named 'staging_weather.sql' which was not found
+[0m16:51:38.874649 [debug] [MainThread]: Command `dbt run` failed at 16:51:38.874649 after 3.94 seconds
+[0m16:51:38.879436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3D3D9180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3FAE0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028B3FC1B640>]}
+[0m16:51:38.882185 [debug] [MainThread]: Flushing usage events
+[0m16:51:39.485726 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:52:30.600612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39840D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E399476800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3994769E0>]}
+
+
+============================== 16:52:30.604613 | c686b138-d321-47f0-9aa7-20f273a3b9ef ==============================
+[0m16:52:30.604613 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:52:30.604613 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:52:30.860737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c686b138-d321-47f0-9aa7-20f273a3b9ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E398C2EC50>]}
+[0m16:52:30.893056 [debug] [MainThread]: Command `dbt clean` succeeded at 16:52:30.893056 after 0.84 seconds
+[0m16:52:30.894701 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E39840D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E399411D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E399537880>]}
+[0m16:52:30.894701 [debug] [MainThread]: Flushing usage events
+[0m16:52:31.524587 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:52:37.356197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206EE94D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F0986830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F0986A10>]}
+
+
+============================== 16:52:37.362182 | e11bb30d-2a40-412f-b8f8-849f12c4774f ==============================
+[0m16:52:37.362182 [info ] [MainThread]: Running with dbt=1.10.2
+[0m16:52:37.364730 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:52:37.691062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e11bb30d-2a40-412f-b8f8-849f12c4774f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F0AFA680>]}
+[0m16:52:37.811708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e11bb30d-2a40-412f-b8f8-849f12c4774f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F0984E20>]}
+[0m16:52:37.814755 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m16:52:38.377928 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m16:52:38.377928 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:52:38.385029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e11bb30d-2a40-412f-b8f8-849f12c4774f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F0BB3160>]}
+[0m16:52:41.035057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e11bb30d-2a40-412f-b8f8-849f12c4774f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F2268130>]}
+[0m16:52:41.214825 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m16:52:41.216091 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m16:52:41.273857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e11bb30d-2a40-412f-b8f8-849f12c4774f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F2298550>]}
+[0m16:52:41.278890 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 433 macros
+[0m16:52:41.282525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e11bb30d-2a40-412f-b8f8-849f12c4774f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F2298610>]}
+[0m16:52:41.288850 [info ] [MainThread]: 
+[0m16:52:41.295477 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m16:52:41.298491 [info ] [MainThread]: 
+[0m16:52:41.300488 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m16:52:41.314919 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values'
+[0m16:52:42.408566 [debug] [ThreadPool]: Using postgres connection "list_weather_values"
+[0m16:52:42.410596 [debug] [ThreadPool]: On list_weather_values: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m16:52:42.410596 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:52:46.484757 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[0m16:52:50.552812 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m16:52:50.559164 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m16:52:50.563307 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m16:52:50.568825 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m16:52:50.574981 [debug] [ThreadPool]: On list_weather_values: No close available on handle
+[0m16:52:50.579079 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:52:50.581595 [debug] [MainThread]: Connection 'list_weather_values' was properly closed.
+[0m16:52:50.587644 [info ] [MainThread]: 
+[0m16:52:50.589734 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 9.29 seconds (9.29s).
+[0m16:52:50.594996 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+  	Is the server running on that host and accepting TCP/IP connections?
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+  	Is the server running on that host and accepting TCP/IP connections?
+  
+[0m16:52:50.601522 [debug] [MainThread]: Command `dbt run` failed at 16:52:50.597064 after 13.59 seconds
+[0m16:52:50.606154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206EE94D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F2299FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206F22D9330>]}
+[0m16:52:50.609833 [debug] [MainThread]: Flushing usage events
+[0m16:52:51.171277 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:26:01.226837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E922B9D030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E923C03250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E923C03FA0>]}
+
+
+============================== 20:26:01.244942 | 4f9c4d60-dc01-49f8-98b3-d48e1579dbf0 ==============================
+[0m20:26:01.244942 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:26:01.247350 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m20:26:01.578407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4f9c4d60-dc01-49f8-98b3-d48e1579dbf0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E91FF38F40>]}
+[0m20:26:01.716971 [debug] [MainThread]: Command `dbt clean` succeeded at 20:26:01.716971 after 1.10 seconds
+[0m20:26:01.718967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E922B9D030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E923CC7010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E923CC5FF0>]}
+[0m20:26:01.720969 [debug] [MainThread]: Flushing usage events
+[0m20:26:02.385001 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:26:11.448219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8EDE4D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8EFE8ADA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8EFE8AF80>]}
+
+
+============================== 20:26:11.456184 | 35427e1e-dab8-4912-8529-e31a9c51e8d9 ==============================
+[0m20:26:11.456184 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:26:11.457183 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:26:11.476007 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_POSTGRES_USER'
+[0m20:26:11.481029 [debug] [MainThread]: Command `dbt run` failed at 20:26:11.481029 after 0.60 seconds
+[0m20:26:11.482006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8EDE4D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8EFE891B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8EFE88E50>]}
+[0m20:26:11.483515 [debug] [MainThread]: Flushing usage events
+[0m20:26:12.008419 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:30:47.917722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304B53D150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304C5A6800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304C5A69E0>]}
+
+
+============================== 20:30:47.923252 | de82bf77-9266-4cb3-b933-45a32e728b61 ==============================
+[0m20:30:47.923252 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:30:47.927157 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:30:48.486696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'de82bf77-9266-4cb3-b933-45a32e728b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230488B90F0>]}
+[0m20:30:48.600773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'de82bf77-9266-4cb3-b933-45a32e728b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304BD06EF0>]}
+[0m20:30:48.604787 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:30:49.242918 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:30:49.245029 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:30:49.245490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'de82bf77-9266-4cb3-b933-45a32e728b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304C7CF5E0>]}
+[0m20:30:52.830704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'de82bf77-9266-4cb3-b933-45a32e728b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304DE8C130>]}
+[0m20:30:53.276950 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:30:53.295774 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:30:53.409654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'de82bf77-9266-4cb3-b933-45a32e728b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304DEBF8E0>]}
+[0m20:30:53.411668 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 433 macros
+[0m20:30:53.415747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'de82bf77-9266-4cb3-b933-45a32e728b61', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304DEBF790>]}
+[0m20:30:53.423042 [info ] [MainThread]: 
+[0m20:30:53.425579 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:30:53.427808 [info ] [MainThread]: 
+[0m20:30:53.430331 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:30:53.459355 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values'
+[0m20:30:58.035594 [debug] [ThreadPool]: Using postgres connection "list_weather_values"
+[0m20:30:58.040598 [debug] [ThreadPool]: On list_weather_values: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:30:58.041597 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:30:58.102752 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "dbt_user"
+
+[0m20:30:58.157821 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:30:58.159825 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m20:30:58.161822 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m20:30:58.164007 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m20:30:58.169332 [debug] [ThreadPool]: On list_weather_values: No close available on handle
+[0m20:30:58.173777 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:30:58.175787 [debug] [MainThread]: Connection 'list_weather_values' was properly closed.
+[0m20:30:58.178313 [info ] [MainThread]: 
+[0m20:30:58.180307 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.75 seconds (4.75s).
+[0m20:30:58.184872 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "dbt_user"
+  
+[0m20:30:58.190186 [debug] [MainThread]: Command `dbt run` failed at 20:30:58.190186 after 10.84 seconds
+[0m20:30:58.191361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304B53D150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304DEBCCA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002304DEF9570>]}
+[0m20:30:58.193918 [debug] [MainThread]: Flushing usage events
+[0m20:30:58.879937 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:31:07.465653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAB1DD0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAD213250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAD213430>]}
+
+
+============================== 20:31:07.472175 | c403e18c-1132-449d-a5c4-f02459871fcc ==============================
+[0m20:31:07.472175 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:31:07.473682 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m20:31:07.734926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c403e18c-1132-449d-a5c4-f02459871fcc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAC9CEC50>]}
+[0m20:31:07.769702 [debug] [MainThread]: Command `dbt clean` succeeded at 20:31:07.769702 after 0.98 seconds
+[0m20:31:07.770745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAB1DD0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAD1B5D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAD2D6170>]}
+[0m20:31:07.771738 [debug] [MainThread]: Flushing usage events
+[0m20:31:08.331624 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:31:18.308840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E59552D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E597566830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E597566A10>]}
+
+
+============================== 20:31:18.313349 | 5ba478e2-a567-45a0-a508-6217e4c81238 ==============================
+[0m20:31:18.313349 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:31:18.314865 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:31:19.055926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5ba478e2-a567-45a0-a508-6217e4c81238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5976DA680>]}
+[0m20:31:19.195966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5ba478e2-a567-45a0-a508-6217e4c81238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E597564E20>]}
+[0m20:31:19.198815 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:31:20.068004 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:31:20.071003 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:31:20.072001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5ba478e2-a567-45a0-a508-6217e4c81238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E597793160>]}
+[0m20:31:23.656954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5ba478e2-a567-45a0-a508-6217e4c81238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E598E44130>]}
+[0m20:31:23.872836 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:31:23.881307 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:31:23.928049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5ba478e2-a567-45a0-a508-6217e4c81238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E598E78550>]}
+[0m20:31:23.931531 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 433 macros
+[0m20:31:23.934058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5ba478e2-a567-45a0-a508-6217e4c81238', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E598E78610>]}
+[0m20:31:23.938581 [info ] [MainThread]: 
+[0m20:31:23.955756 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:31:23.978248 [info ] [MainThread]: 
+[0m20:31:24.043118 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:31:24.078133 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values'
+[0m20:31:25.222649 [debug] [ThreadPool]: Using postgres connection "list_weather_values"
+[0m20:31:25.224217 [debug] [ThreadPool]: On list_weather_values: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:31:25.224999 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:31:25.308538 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "dbt_user"
+
+[0m20:31:25.420022 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:31:25.422090 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m20:31:25.425165 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m20:31:25.435886 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m20:31:25.438436 [debug] [ThreadPool]: On list_weather_values: No close available on handle
+[0m20:31:25.441985 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:31:25.451047 [debug] [MainThread]: Connection 'list_weather_values' was properly closed.
+[0m20:31:25.454072 [info ] [MainThread]: 
+[0m20:31:25.458992 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.41 seconds (1.41s).
+[0m20:31:25.469119 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "dbt_user"
+  
+[0m20:31:25.538182 [debug] [MainThread]: Command `dbt run` failed at 20:31:25.538182 after 7.61 seconds
+[0m20:31:25.557993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E59552D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E598E7B580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E598EB5330>]}
+[0m20:31:25.574905 [debug] [MainThread]: Flushing usage events
+[0m20:31:26.283194 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:34:27.439002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC14E0D120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC16E43220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC16E43400>]}
+
+
+============================== 20:34:27.446080 | f7977662-d3a3-41a2-b04f-c6b4cfff8755 ==============================
+[0m20:34:27.446080 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:34:27.449079 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:34:27.710090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f7977662-d3a3-41a2-b04f-c6b4cfff8755', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC13149090>]}
+[0m20:34:27.753007 [debug] [MainThread]: Command `dbt clean` succeeded at 20:34:27.751486 after 0.66 seconds
+[0m20:34:27.755459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC14E0D120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC16F045E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC16F06560>]}
+[0m20:34:27.756456 [debug] [MainThread]: Flushing usage events
+[0m20:34:28.391354 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:34:38.190990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A145CBD150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A146D231F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A146D233D0>]}
+
+
+============================== 20:34:38.196546 | f127c941-2a16-470a-86e4-4e13edca55ae ==============================
+[0m20:34:38.196546 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:34:38.198546 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:34:38.265097 [info ] [MainThread]: dbt version: 1.10.2
+[0m20:34:38.266737 [info ] [MainThread]: python version: 3.10.11
+[0m20:34:38.267748 [info ] [MainThread]: python path: C:\Users\csczy\Documents\public-data-etl\venv\Scripts\python.exe
+[0m20:34:38.274988 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:34:38.443936 [info ] [MainThread]: Using profiles dir at C:\Users\csczy\Documents\public-data-etl\dbt
+[0m20:34:38.444942 [info ] [MainThread]: Using profiles.yml file at C:\Users\csczy\Documents\public-data-etl\dbt\profiles.yml
+[0m20:34:38.446450 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\csczy\Documents\public-data-etl\dbt\dbt_project.yml
+[0m20:34:38.448458 [info ] [MainThread]: adapter type: postgres
+[0m20:34:38.449456 [info ] [MainThread]: adapter version: 1.9.0
+[0m20:34:38.725727 [info ] [MainThread]: Configuration:
+[0m20:34:38.727729 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:34:38.728732 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:34:38.730727 [info ] [MainThread]: Required dependencies:
+[0m20:34:38.731743 [debug] [MainThread]: Executing "git --help"
+[0m20:34:38.910860 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:34:38.912873 [debug] [MainThread]: STDERR: "b''"
+[0m20:34:38.914910 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:34:38.916923 [info ] [MainThread]: Connection:
+[0m20:34:38.923436 [info ] [MainThread]:   host: localhost
+[0m20:34:38.926999 [info ] [MainThread]:   port: 5432
+[0m20:34:38.928979 [info ] [MainThread]:   user: postgres
+[0m20:34:38.930978 [info ] [MainThread]:   database: weather_values
+[0m20:34:38.932983 [info ] [MainThread]:   schema: weather
+[0m20:34:38.934112 [info ] [MainThread]:   connect_timeout: 10
+[0m20:34:38.940125 [info ] [MainThread]:   role: None
+[0m20:34:38.943124 [info ] [MainThread]:   search_path: None
+[0m20:34:38.944651 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:34:38.945039 [info ] [MainThread]:   sslmode: None
+[0m20:34:38.947048 [info ] [MainThread]:   sslcert: None
+[0m20:34:38.948047 [info ] [MainThread]:   sslkey: None
+[0m20:34:38.950049 [info ] [MainThread]:   sslrootcert: None
+[0m20:34:38.951054 [info ] [MainThread]:   application_name: dbt
+[0m20:34:38.959128 [info ] [MainThread]:   retries: 1
+[0m20:34:38.961124 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:34:39.588407 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:34:39.741420 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:34:39.742963 [debug] [MainThread]: On debug: select 1 as id
+[0m20:34:39.743973 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:34:39.794603 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "weather_values" does not exist
+
+[0m20:34:39.842224 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m20:34:39.845183 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m20:34:39.847167 [debug] [MainThread]: On debug: No close available on handle
+[0m20:34:39.849115 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:34:39.853793 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:34:39.859835 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "weather_values" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:34:39.863917 [debug] [MainThread]: Command `dbt debug` failed at 20:34:39.863917 after 2.11 seconds
+[0m20:34:39.866945 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:34:39.873456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A145CBD150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A146E92710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A146E904F0>]}
+[0m20:34:39.876996 [debug] [MainThread]: Flushing usage events
+[0m20:34:40.454012 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:36:10.031255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7BA5D120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7DA96800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7DA969E0>]}
+
+
+============================== 20:36:10.041777 | e6319864-9fb4-4d48-85c1-860843258993 ==============================
+[0m20:36:10.041777 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:36:10.044837 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt clean', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:36:10.674897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e6319864-9fb4-4d48-85c1-860843258993', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7A599090>]}
+[0m20:36:10.737444 [debug] [MainThread]: Command `dbt clean` succeeded at 20:36:10.737444 after 1.32 seconds
+[0m20:36:10.738432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7BA5D120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7DB545E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF7DB56560>]}
+[0m20:36:10.739433 [debug] [MainThread]: Flushing usage events
+[0m20:36:11.480975 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:36:19.465710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC8B8D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC9BF3250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC9BF3430>]}
+
+
+============================== 20:36:19.472122 | e1605beb-f8e0-46f1-94ac-65df11b048f2 ==============================
+[0m20:36:19.472122 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:36:19.473668 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:36:19.509596 [info ] [MainThread]: dbt version: 1.10.2
+[0m20:36:19.510594 [info ] [MainThread]: python version: 3.10.11
+[0m20:36:19.511510 [info ] [MainThread]: python path: C:\Users\csczy\Documents\public-data-etl\venv\Scripts\python.exe
+[0m20:36:19.513017 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:36:19.666078 [info ] [MainThread]: Using profiles dir at C:\Users\csczy\Documents\public-data-etl\dbt
+[0m20:36:19.667078 [info ] [MainThread]: Using profiles.yml file at C:\Users\csczy\Documents\public-data-etl\dbt\profiles.yml
+[0m20:36:19.668079 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\csczy\Documents\public-data-etl\dbt\dbt_project.yml
+[0m20:36:19.675627 [info ] [MainThread]: adapter type: postgres
+[0m20:36:19.676641 [info ] [MainThread]: adapter version: 1.9.0
+[0m20:36:19.888339 [info ] [MainThread]: Configuration:
+[0m20:36:19.889279 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:36:19.890688 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:36:19.891707 [info ] [MainThread]: Required dependencies:
+[0m20:36:19.893742 [debug] [MainThread]: Executing "git --help"
+[0m20:36:20.074475 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:36:20.076494 [debug] [MainThread]: STDERR: "b''"
+[0m20:36:20.077484 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:36:20.078492 [info ] [MainThread]: Connection:
+[0m20:36:20.079483 [info ] [MainThread]:   host: localhost
+[0m20:36:20.080485 [info ] [MainThread]:   port: 5432
+[0m20:36:20.081491 [info ] [MainThread]:   user: postgres
+[0m20:36:20.084033 [info ] [MainThread]:   database: weather_values
+[0m20:36:20.090120 [info ] [MainThread]:   schema: weather
+[0m20:36:20.094644 [info ] [MainThread]:   connect_timeout: 10
+[0m20:36:20.097174 [info ] [MainThread]:   role: None
+[0m20:36:20.098193 [info ] [MainThread]:   search_path: None
+[0m20:36:20.099174 [info ] [MainThread]:   keepalives_idle: 0
+[0m20:36:20.100172 [info ] [MainThread]:   sslmode: None
+[0m20:36:20.109144 [info ] [MainThread]:   sslcert: None
+[0m20:36:20.111154 [info ] [MainThread]:   sslkey: None
+[0m20:36:20.113662 [info ] [MainThread]:   sslrootcert: None
+[0m20:36:20.114672 [info ] [MainThread]:   application_name: dbt
+[0m20:36:20.116462 [info ] [MainThread]:   retries: 1
+[0m20:36:20.117461 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:36:20.721416 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m20:36:20.926731 [debug] [MainThread]: Using postgres connection "debug"
+[0m20:36:20.933992 [debug] [MainThread]: On debug: select 1 as id
+[0m20:36:20.939726 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:36:20.998831 [debug] [MainThread]: SQL status: SELECT 1 in 0.060 seconds
+[0m20:36:21.006133 [debug] [MainThread]: On debug: Close
+[0m20:36:21.008739 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:36:21.011742 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:36:21.016792 [debug] [MainThread]: Command `dbt debug` succeeded at 20:36:21.016792 after 2.11 seconds
+[0m20:36:21.019787 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:36:21.022784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC8B8D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC8C579D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC9D61330>]}
+[0m20:36:21.027833 [debug] [MainThread]: Flushing usage events
+[0m20:36:21.576009 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:36:53.269442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54A269180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54B2D6800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54B2D69E0>]}
+
+
+============================== 20:36:53.276844 | f1502db8-6727-4edc-b05d-4a72a12d10cf ==============================
+[0m20:36:53.276844 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:36:53.279102 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:36:53.654045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C5475D9120>]}
+[0m20:36:53.780084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54A9FB640>]}
+[0m20:36:53.782085 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:36:54.438969 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:36:54.444049 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:36:54.445568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54B5000A0>]}
+[0m20:36:57.566077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54CBC0130>]}
+[0m20:36:57.795241 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:36:57.807753 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:36:57.857943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54CBEFDC0>]}
+[0m20:36:57.858941 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 433 macros
+[0m20:36:57.860941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54CBEFE50>]}
+[0m20:36:57.864997 [info ] [MainThread]: 
+[0m20:36:57.865990 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:36:57.867988 [info ] [MainThread]: 
+[0m20:36:57.869993 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:36:57.895825 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values'
+[0m20:36:58.093559 [debug] [ThreadPool]: Using postgres connection "list_weather_values"
+[0m20:36:58.094063 [debug] [ThreadPool]: On list_weather_values: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:36:58.096073 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:36:58.175784 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.080 seconds
+[0m20:36:58.177781 [debug] [ThreadPool]: On list_weather_values: Close
+[0m20:36:58.181778 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_weather_values, now create_weather_values_weather)
+[0m20:36:58.183819 [debug] [ThreadPool]: Creating schema "database: "weather_values"
+schema: "weather"
+"
+[0m20:36:58.206543 [debug] [ThreadPool]: Using postgres connection "create_weather_values_weather"
+[0m20:36:58.209076 [debug] [ThreadPool]: On create_weather_values_weather: BEGIN
+[0m20:36:58.209592 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:36:58.303744 [debug] [ThreadPool]: SQL status: BEGIN in 0.093 seconds
+[0m20:36:58.307832 [debug] [ThreadPool]: Using postgres connection "create_weather_values_weather"
+[0m20:36:58.309881 [debug] [ThreadPool]: On create_weather_values_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "create_weather_values_weather"} */
+create schema if not exists "weather"
+[0m20:36:58.316000 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.004 seconds
+[0m20:36:58.319007 [debug] [ThreadPool]: On create_weather_values_weather: COMMIT
+[0m20:36:58.323002 [debug] [ThreadPool]: Using postgres connection "create_weather_values_weather"
+[0m20:36:58.325056 [debug] [ThreadPool]: On create_weather_values_weather: COMMIT
+[0m20:36:58.361818 [debug] [ThreadPool]: SQL status: COMMIT in 0.034 seconds
+[0m20:36:58.368936 [debug] [ThreadPool]: On create_weather_values_weather: Close
+[0m20:36:58.401439 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values_weather'
+[0m20:36:58.451804 [debug] [ThreadPool]: Using postgres connection "list_weather_values_weather"
+[0m20:36:58.458880 [debug] [ThreadPool]: On list_weather_values_weather: BEGIN
+[0m20:36:58.459873 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:36:58.501804 [debug] [ThreadPool]: SQL status: BEGIN in 0.041 seconds
+[0m20:36:58.504382 [debug] [ThreadPool]: Using postgres connection "list_weather_values_weather"
+[0m20:36:58.507403 [debug] [ThreadPool]: On list_weather_values_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values_weather"} */
+select
+      'weather_values' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'weather'
+    union all
+    select
+      'weather_values' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'weather'
+    union all
+    select
+      'weather_values' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'weather'
+  
+[0m20:36:58.526438 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.017 seconds
+[0m20:36:58.530440 [debug] [ThreadPool]: On list_weather_values_weather: ROLLBACK
+[0m20:36:58.532958 [debug] [ThreadPool]: On list_weather_values_weather: Close
+[0m20:36:58.560940 [debug] [MainThread]: Using postgres connection "master"
+[0m20:36:58.563971 [debug] [MainThread]: On master: BEGIN
+[0m20:36:58.565987 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:36:58.615056 [debug] [MainThread]: SQL status: BEGIN in 0.049 seconds
+[0m20:36:58.617046 [debug] [MainThread]: Using postgres connection "master"
+[0m20:36:58.618662 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m20:36:58.633114 [debug] [MainThread]: SQL status: SELECT 0 in 0.013 seconds
+[0m20:36:58.638269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54D03B5B0>]}
+[0m20:36:58.643189 [debug] [MainThread]: On master: ROLLBACK
+[0m20:36:58.646748 [debug] [MainThread]: Using postgres connection "master"
+[0m20:36:58.648764 [debug] [MainThread]: On master: BEGIN
+[0m20:36:58.651754 [debug] [MainThread]: SQL status: BEGIN in 0.002 seconds
+[0m20:36:58.656666 [debug] [MainThread]: On master: COMMIT
+[0m20:36:58.660575 [debug] [MainThread]: Using postgres connection "master"
+[0m20:36:58.662113 [debug] [MainThread]: On master: COMMIT
+[0m20:36:58.665226 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m20:36:58.666934 [debug] [MainThread]: On master: Close
+[0m20:36:58.779869 [debug] [Thread-1 (]: Began running node model.public_data_etl.staging_weather
+[0m20:36:58.782870 [info ] [Thread-1 (]: 1 of 2 START sql view model weather.staging_weather ............................ [RUN]
+[0m20:36:58.816510 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.public_data_etl.staging_weather'
+[0m20:36:58.818582 [debug] [Thread-1 (]: Began compiling node model.public_data_etl.staging_weather
+[0m20:36:58.881802 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_data_etl.staging_weather"
+[0m20:36:58.891583 [debug] [Thread-1 (]: Began executing node model.public_data_etl.staging_weather
+[0m20:36:59.123336 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_data_etl.staging_weather"
+[0m20:36:59.127874 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:36:59.128874 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: BEGIN
+[0m20:36:59.129882 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:36:59.159975 [debug] [Thread-1 (]: SQL status: BEGIN in 0.030 seconds
+[0m20:36:59.162349 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:36:59.163946 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.staging_weather"} */
+
+  create view "weather_values"."weather"."staging_weather__dbt_tmp"
+    
+    
+  as (
+    --staging_weather.sql
+select
+    city,
+    temp as temperature,
+    humidity,
+    weather,
+    timestamp::timestamp as recorded_at
+from "weather_values"."public"."weather"
+  );
+[0m20:36:59.168081 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "public.weather" does not exist
+LINE 14: from "weather_values"."public"."weather"
+              ^
+
+[0m20:36:59.173696 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: ROLLBACK
+[0m20:36:59.182101 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: Close
+[0m20:36:59.267144 [debug] [Thread-1 (]: Database Error in model staging_weather (models\staging_weather.sql)
+  relation "public.weather" does not exist
+  LINE 14: from "weather_values"."public"."weather"
+                ^
+  compiled code at target\run\public_data_etl\models\staging_weather.sql
+[0m20:36:59.285896 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f1502db8-6727-4edc-b05d-4a72a12d10cf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54D091570>]}
+[0m20:36:59.292496 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model weather.staging_weather ................... [[31mERROR[0m in 0.46s]
+[0m20:36:59.297111 [debug] [Thread-1 (]: Finished running node model.public_data_etl.staging_weather
+[0m20:36:59.299144 [debug] [Thread-4 (]: Marking all children of 'model.public_data_etl.staging_weather' to be skipped because of status 'error'.  Reason: Database Error in model staging_weather (models\staging_weather.sql)
+  relation "public.weather" does not exist
+  LINE 14: from "weather_values"."public"."weather"
+                ^
+  compiled code at target\run\public_data_etl\models\staging_weather.sql.
+[0m20:36:59.302202 [debug] [Thread-1 (]: Began running node model.public_data_etl.fct_avg_temp_by_city
+[0m20:36:59.308764 [info ] [Thread-1 (]: 2 of 2 SKIP relation weather.fct_avg_temp_by_city .............................. [[33mSKIP[0m]
+[0m20:36:59.311852 [debug] [Thread-1 (]: Finished running node model.public_data_etl.fct_avg_temp_by_city
+[0m20:36:59.314784 [debug] [MainThread]: Using postgres connection "master"
+[0m20:36:59.317796 [debug] [MainThread]: On master: BEGIN
+[0m20:36:59.319797 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:36:59.395226 [debug] [MainThread]: SQL status: BEGIN in 0.076 seconds
+[0m20:36:59.397616 [debug] [MainThread]: On master: COMMIT
+[0m20:36:59.399266 [debug] [MainThread]: Using postgres connection "master"
+[0m20:36:59.400969 [debug] [MainThread]: On master: COMMIT
+[0m20:36:59.408033 [debug] [MainThread]: SQL status: COMMIT in 0.005 seconds
+[0m20:36:59.410583 [debug] [MainThread]: On master: Close
+[0m20:36:59.413738 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:36:59.415267 [debug] [MainThread]: Connection 'create_weather_values_weather' was properly closed.
+[0m20:36:59.416281 [debug] [MainThread]: Connection 'list_weather_values_weather' was properly closed.
+[0m20:36:59.425276 [debug] [MainThread]: Connection 'model.public_data_etl.staging_weather' was properly closed.
+[0m20:36:59.428003 [info ] [MainThread]: 
+[0m20:36:59.431071 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 1.56 seconds (1.56s).
+[0m20:36:59.435217 [debug] [MainThread]: Command end result
+[0m20:36:59.628198 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:36:59.632743 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:36:59.650848 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\csczy\Documents\public-data-etl\dbt\target\run_results.json
+[0m20:36:59.651892 [info ] [MainThread]: 
+[0m20:36:59.658051 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:36:59.660095 [info ] [MainThread]: 
+[0m20:36:59.662141 [error] [MainThread]: [31mFailure in model staging_weather (models\staging_weather.sql)[0m
+[0m20:36:59.663676 [error] [MainThread]:   Database Error in model staging_weather (models\staging_weather.sql)
+  relation "public.weather" does not exist
+  LINE 14: from "weather_values"."public"."weather"
+                ^
+  compiled code at target\run\public_data_etl\models\staging_weather.sql
+[0m20:36:59.665725 [info ] [MainThread]: 
+[0m20:36:59.666749 [info ] [MainThread]:   compiled code at target\compiled\public_data_etl\models\staging_weather.sql
+[0m20:36:59.671740 [info ] [MainThread]: 
+[0m20:36:59.675826 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=2
+[0m20:36:59.679826 [debug] [MainThread]: Command `dbt run` failed at 20:36:59.679826 after 7.23 seconds
+[0m20:36:59.682871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54A269180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54CBC2EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C54A3365F0>]}
+[0m20:36:59.685374 [debug] [MainThread]: Flushing usage events
+[0m20:37:00.245894 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:39:59.216158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF26BFD0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF28C33250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF28C33430>]}
+
+
+============================== 20:39:59.222167 | 473fa568-b9b1-4780-a085-1ab0e4223ded ==============================
+[0m20:39:59.222167 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:39:59.225798 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt clean', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:39:59.468539 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '473fa568-b9b1-4780-a085-1ab0e4223ded', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF283EEC50>]}
+[0m20:39:59.513060 [debug] [MainThread]: Command `dbt clean` succeeded at 20:39:59.513060 after 1.03 seconds
+[0m20:39:59.516604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF26BFD0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF28BD1D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF28CF6140>]}
+[0m20:39:59.517596 [debug] [MainThread]: Flushing usage events
+[0m20:40:00.150209 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:40:11.124820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AED20D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AEF256830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AEF256A10>]}
+
+
+============================== 20:40:11.133819 | 2ea97277-76c0-4359-bb86-24672d220149 ==============================
+[0m20:40:11.133819 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:40:11.135832 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:40:11.553263 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AEB5499C0>]}
+[0m20:40:11.670141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AEF254E20>]}
+[0m20:40:11.672146 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:40:12.289434 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:40:12.291703 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:40:12.292999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AEF482470>]}
+[0m20:40:15.575948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AF0B38130>]}
+[0m20:40:15.772086 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:40:15.783387 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:40:15.821077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AF0B183A0>]}
+[0m20:40:15.822081 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 433 macros
+[0m20:40:15.823074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AF0B18880>]}
+[0m20:40:15.830117 [info ] [MainThread]: 
+[0m20:40:15.831483 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:40:15.831483 [info ] [MainThread]: 
+[0m20:40:15.833052 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:40:15.843156 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values'
+[0m20:40:16.011638 [debug] [ThreadPool]: Using postgres connection "list_weather_values"
+[0m20:40:16.013723 [debug] [ThreadPool]: On list_weather_values: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:40:16.014756 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:40:16.051514 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.037 seconds
+[0m20:40:16.054112 [debug] [ThreadPool]: On list_weather_values: Close
+[0m20:40:16.057917 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values_weather'
+[0m20:40:16.071999 [debug] [ThreadPool]: Using postgres connection "list_weather_values_weather"
+[0m20:40:16.074000 [debug] [ThreadPool]: On list_weather_values_weather: BEGIN
+[0m20:40:16.076011 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:40:16.111150 [debug] [ThreadPool]: SQL status: BEGIN in 0.036 seconds
+[0m20:40:16.113788 [debug] [ThreadPool]: Using postgres connection "list_weather_values_weather"
+[0m20:40:16.114885 [debug] [ThreadPool]: On list_weather_values_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values_weather"} */
+select
+      'weather_values' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'weather'
+    union all
+    select
+      'weather_values' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'weather'
+    union all
+    select
+      'weather_values' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'weather'
+  
+[0m20:40:16.129483 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.013 seconds
+[0m20:40:16.135517 [debug] [ThreadPool]: On list_weather_values_weather: ROLLBACK
+[0m20:40:16.138510 [debug] [ThreadPool]: On list_weather_values_weather: Close
+[0m20:40:16.155663 [debug] [MainThread]: Using postgres connection "master"
+[0m20:40:16.157665 [debug] [MainThread]: On master: BEGIN
+[0m20:40:16.161663 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:40:16.209969 [debug] [MainThread]: SQL status: BEGIN in 0.048 seconds
+[0m20:40:16.217039 [debug] [MainThread]: Using postgres connection "master"
+[0m20:40:16.220697 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m20:40:16.230742 [debug] [MainThread]: SQL status: SELECT 0 in 0.009 seconds
+[0m20:40:16.235847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AF0BA9300>]}
+[0m20:40:16.238845 [debug] [MainThread]: On master: ROLLBACK
+[0m20:40:16.241492 [debug] [MainThread]: Using postgres connection "master"
+[0m20:40:16.244553 [debug] [MainThread]: On master: BEGIN
+[0m20:40:16.249145 [debug] [MainThread]: SQL status: BEGIN in 0.003 seconds
+[0m20:40:16.251705 [debug] [MainThread]: On master: COMMIT
+[0m20:40:16.254823 [debug] [MainThread]: Using postgres connection "master"
+[0m20:40:16.256841 [debug] [MainThread]: On master: COMMIT
+[0m20:40:16.265922 [debug] [MainThread]: SQL status: COMMIT in 0.007 seconds
+[0m20:40:16.267920 [debug] [MainThread]: On master: Close
+[0m20:40:16.283736 [debug] [Thread-1 (]: Began running node model.public_data_etl.staging_weather
+[0m20:40:16.285717 [info ] [Thread-1 (]: 1 of 2 START sql view model weather.staging_weather ............................ [RUN]
+[0m20:40:16.288507 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.public_data_etl.staging_weather'
+[0m20:40:16.296963 [debug] [Thread-1 (]: Began compiling node model.public_data_etl.staging_weather
+[0m20:40:16.337007 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_data_etl.staging_weather"
+[0m20:40:16.340004 [debug] [Thread-1 (]: Began executing node model.public_data_etl.staging_weather
+[0m20:40:16.506479 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_data_etl.staging_weather"
+[0m20:40:16.514019 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:40:16.515554 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: BEGIN
+[0m20:40:16.516552 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:40:16.541153 [debug] [Thread-1 (]: SQL status: BEGIN in 0.024 seconds
+[0m20:40:16.543775 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:40:16.546520 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.staging_weather"} */
+
+  create view "weather_values"."weather"."staging_weather__dbt_tmp"
+    
+    
+  as (
+    --staging_weather.sql
+select
+    city,
+    temp as temperature,
+    humidity,
+    weather,
+    timestamp::timestamp as recorded_at
+from "weather_values"."public"."weather"
+  );
+[0m20:40:16.550642 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "timestamp" does not exist
+LINE 13:     timestamp::timestamp as recorded_at
+             ^
+HINT:  Perhaps you meant to reference the column "weather.timestap".
+
+[0m20:40:16.553315 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: ROLLBACK
+[0m20:40:16.555494 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: Close
+[0m20:40:16.568383 [debug] [Thread-1 (]: Database Error in model staging_weather (models\staging_weather.sql)
+  column "timestamp" does not exist
+  LINE 13:     timestamp::timestamp as recorded_at
+               ^
+  HINT:  Perhaps you meant to reference the column "weather.timestap".
+  compiled code at target\run\public_data_etl\models\staging_weather.sql
+[0m20:40:16.571394 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2ea97277-76c0-4359-bb86-24672d220149', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AECE58D90>]}
+[0m20:40:16.574983 [error] [Thread-1 (]: 1 of 2 ERROR creating sql view model weather.staging_weather ................... [[31mERROR[0m in 0.28s]
+[0m20:40:16.578986 [debug] [Thread-1 (]: Finished running node model.public_data_etl.staging_weather
+[0m20:40:16.580985 [debug] [Thread-4 (]: Marking all children of 'model.public_data_etl.staging_weather' to be skipped because of status 'error'.  Reason: Database Error in model staging_weather (models\staging_weather.sql)
+  column "timestamp" does not exist
+  LINE 13:     timestamp::timestamp as recorded_at
+               ^
+  HINT:  Perhaps you meant to reference the column "weather.timestap".
+  compiled code at target\run\public_data_etl\models\staging_weather.sql.
+[0m20:40:16.582990 [debug] [Thread-1 (]: Began running node model.public_data_etl.fct_avg_temp_by_city
+[0m20:40:16.585192 [info ] [Thread-1 (]: 2 of 2 SKIP relation weather.fct_avg_temp_by_city .............................. [[33mSKIP[0m]
+[0m20:40:16.587204 [debug] [Thread-1 (]: Finished running node model.public_data_etl.fct_avg_temp_by_city
+[0m20:40:16.595367 [debug] [MainThread]: Using postgres connection "master"
+[0m20:40:16.597833 [debug] [MainThread]: On master: BEGIN
+[0m20:40:16.600311 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:40:16.639520 [debug] [MainThread]: SQL status: BEGIN in 0.039 seconds
+[0m20:40:16.643958 [debug] [MainThread]: On master: COMMIT
+[0m20:40:16.645994 [debug] [MainThread]: Using postgres connection "master"
+[0m20:40:16.647998 [debug] [MainThread]: On master: COMMIT
+[0m20:40:16.651377 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m20:40:16.652887 [debug] [MainThread]: On master: Close
+[0m20:40:16.655439 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:40:16.660145 [debug] [MainThread]: Connection 'list_weather_values' was properly closed.
+[0m20:40:16.662149 [debug] [MainThread]: Connection 'list_weather_values_weather' was properly closed.
+[0m20:40:16.663655 [debug] [MainThread]: Connection 'model.public_data_etl.staging_weather' was properly closed.
+[0m20:40:16.665679 [info ] [MainThread]: 
+[0m20:40:16.666666 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.83 seconds (0.83s).
+[0m20:40:16.671222 [debug] [MainThread]: Command end result
+[0m20:40:16.823050 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:40:16.834202 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:40:16.849749 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\csczy\Documents\public-data-etl\dbt\target\run_results.json
+[0m20:40:16.850750 [info ] [MainThread]: 
+[0m20:40:16.851748 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:40:16.853780 [info ] [MainThread]: 
+[0m20:40:16.854791 [error] [MainThread]: [31mFailure in model staging_weather (models\staging_weather.sql)[0m
+[0m20:40:16.855792 [error] [MainThread]:   Database Error in model staging_weather (models\staging_weather.sql)
+  column "timestamp" does not exist
+  LINE 13:     timestamp::timestamp as recorded_at
+               ^
+  HINT:  Perhaps you meant to reference the column "weather.timestap".
+  compiled code at target\run\public_data_etl\models\staging_weather.sql
+[0m20:40:16.861793 [info ] [MainThread]: 
+[0m20:40:16.863303 [info ] [MainThread]:   compiled code at target\compiled\public_data_etl\models\staging_weather.sql
+[0m20:40:16.865851 [info ] [MainThread]: 
+[0m20:40:16.866850 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 NO-OP=0 TOTAL=2
+[0m20:40:16.869369 [debug] [MainThread]: Command `dbt run` failed at 20:40:16.869369 after 6.71 seconds
+[0m20:40:16.870384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AED20D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AF0B3BF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AEE280BB0>]}
+[0m20:40:16.871373 [debug] [MainThread]: Flushing usage events
+[0m20:40:17.480795 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:42:07.503882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FAD7AD120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FAF7E3220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FAF7E3400>]}
+
+
+============================== 20:42:07.508654 | 86662456-de8d-4828-b4c4-549e9bb1c39b ==============================
+[0m20:42:07.508654 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:42:07.510655 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m20:42:07.768896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '86662456-de8d-4828-b4c4-549e9bb1c39b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FABB19090>]}
+[0m20:42:07.812868 [debug] [MainThread]: Command `dbt clean` succeeded at 20:42:07.812868 after 0.66 seconds
+[0m20:42:07.813878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FAD7AD120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FAF8A45E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FAF8A6560>]}
+[0m20:42:07.814386 [debug] [MainThread]: Flushing usage events
+[0m20:42:08.428375 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:42:16.709845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252C901D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CB056830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CB056A10>]}
+
+
+============================== 20:42:16.717043 | eaba5bef-d37a-4d77-9ce5-99fef9f07fd2 ==============================
+[0m20:42:16.717043 [info ] [MainThread]: Running with dbt=1.10.2
+[0m20:42:16.718822 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt\\logs', 'profiles_dir': 'C:\\Users\\csczy\\Documents\\public-data-etl\\dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:42:17.173930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CB1CA680>]}
+[0m20:42:17.318397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CB054E20>]}
+[0m20:42:17.320584 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m20:42:18.053110 [debug] [MainThread]: checksum: 1adc40777973ef30f45f80b3b6d04d5013c1edd53d96363881b3b199e612468b, vars: {}, profile: , target: , version: 1.10.2
+[0m20:42:18.061290 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:42:18.065335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CB283160>]}
+[0m20:42:20.898085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CC93C130>]}
+[0m20:42:21.080140 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:42:21.091045 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:42:21.124241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CC968550>]}
+[0m20:42:21.126253 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 433 macros
+[0m20:42:21.126852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CC968610>]}
+[0m20:42:21.129862 [info ] [MainThread]: 
+[0m20:42:21.130654 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:42:21.131598 [info ] [MainThread]: 
+[0m20:42:21.133141 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m20:42:21.150765 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values'
+[0m20:42:21.409289 [debug] [ThreadPool]: Using postgres connection "list_weather_values"
+[0m20:42:21.410290 [debug] [ThreadPool]: On list_weather_values: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m20:42:21.411292 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:42:21.450843 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.039 seconds
+[0m20:42:21.452841 [debug] [ThreadPool]: On list_weather_values: Close
+[0m20:42:21.459389 [debug] [ThreadPool]: Acquiring new postgres connection 'list_weather_values_weather'
+[0m20:42:21.468927 [debug] [ThreadPool]: Using postgres connection "list_weather_values_weather"
+[0m20:42:21.469930 [debug] [ThreadPool]: On list_weather_values_weather: BEGIN
+[0m20:42:21.470930 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:42:21.507408 [debug] [ThreadPool]: SQL status: BEGIN in 0.036 seconds
+[0m20:42:21.509580 [debug] [ThreadPool]: Using postgres connection "list_weather_values_weather"
+[0m20:42:21.512153 [debug] [ThreadPool]: On list_weather_values_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "list_weather_values_weather"} */
+select
+      'weather_values' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'weather'
+    union all
+    select
+      'weather_values' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'weather'
+    union all
+    select
+      'weather_values' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'weather'
+  
+[0m20:42:21.523487 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.010 seconds
+[0m20:42:21.528090 [debug] [ThreadPool]: On list_weather_values_weather: ROLLBACK
+[0m20:42:21.531088 [debug] [ThreadPool]: On list_weather_values_weather: Close
+[0m20:42:21.565392 [debug] [MainThread]: Using postgres connection "master"
+[0m20:42:21.566557 [debug] [MainThread]: On master: BEGIN
+[0m20:42:21.568554 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:42:21.671297 [debug] [MainThread]: SQL status: BEGIN in 0.103 seconds
+[0m20:42:21.675400 [debug] [MainThread]: Using postgres connection "master"
+[0m20:42:21.677443 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m20:42:21.690861 [debug] [MainThread]: SQL status: SELECT 0 in 0.011 seconds
+[0m20:42:21.695166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CC9A9210>]}
+[0m20:42:21.697219 [debug] [MainThread]: On master: ROLLBACK
+[0m20:42:21.699762 [debug] [MainThread]: Using postgres connection "master"
+[0m20:42:21.701795 [debug] [MainThread]: On master: BEGIN
+[0m20:42:21.706476 [debug] [MainThread]: SQL status: BEGIN in 0.003 seconds
+[0m20:42:21.710079 [debug] [MainThread]: On master: COMMIT
+[0m20:42:21.711610 [debug] [MainThread]: Using postgres connection "master"
+[0m20:42:21.713142 [debug] [MainThread]: On master: COMMIT
+[0m20:42:21.715706 [debug] [MainThread]: SQL status: COMMIT in 0.002 seconds
+[0m20:42:21.717720 [debug] [MainThread]: On master: Close
+[0m20:42:21.743119 [debug] [Thread-1 (]: Began running node model.public_data_etl.staging_weather
+[0m20:42:21.745643 [info ] [Thread-1 (]: 1 of 2 START sql view model weather.staging_weather ............................ [RUN]
+[0m20:42:21.749587 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.public_data_etl.staging_weather'
+[0m20:42:21.769800 [debug] [Thread-1 (]: Began compiling node model.public_data_etl.staging_weather
+[0m20:42:21.807976 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_data_etl.staging_weather"
+[0m20:42:21.820127 [debug] [Thread-1 (]: Began executing node model.public_data_etl.staging_weather
+[0m20:42:21.964003 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_data_etl.staging_weather"
+[0m20:42:21.967882 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:42:21.968881 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: BEGIN
+[0m20:42:21.969881 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:42:21.996966 [debug] [Thread-1 (]: SQL status: BEGIN in 0.027 seconds
+[0m20:42:21.998840 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:42:21.999991 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.staging_weather"} */
+
+  create view "weather_values"."weather"."staging_weather__dbt_tmp"
+    
+    
+  as (
+    --staging_weather.sql
+select
+    city,
+    temp as temperature,
+    humidity,
+    weather,
+    timestamp::timestamp as recorded_at
+from "weather_values"."public"."weather"
+  );
+[0m20:42:22.010313 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.009 seconds
+[0m20:42:22.022709 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:42:22.024851 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.staging_weather"} */
+alter table "weather_values"."weather"."staging_weather__dbt_tmp" rename to "staging_weather"
+[0m20:42:22.029359 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m20:42:22.068915 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: COMMIT
+[0m20:42:22.069918 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:42:22.076096 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: COMMIT
+[0m20:42:22.086887 [debug] [Thread-1 (]: SQL status: COMMIT in 0.008 seconds
+[0m20:42:22.120254 [debug] [Thread-1 (]: Applying DROP to: "weather_values"."weather"."staging_weather__dbt_backup"
+[0m20:42:22.135538 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.staging_weather"
+[0m20:42:22.136237 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.staging_weather"} */
+drop view if exists "weather_values"."weather"."staging_weather__dbt_backup" cascade
+[0m20:42:22.143698 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.006 seconds
+[0m20:42:22.148716 [debug] [Thread-1 (]: On model.public_data_etl.staging_weather: Close
+[0m20:42:22.162507 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252C731B1C0>]}
+[0m20:42:22.164550 [info ] [Thread-1 (]: 1 of 2 OK created sql view model weather.staging_weather ....................... [[32mCREATE VIEW[0m in 0.40s]
+[0m20:42:22.166073 [debug] [Thread-1 (]: Finished running node model.public_data_etl.staging_weather
+[0m20:42:22.168409 [debug] [Thread-1 (]: Began running node model.public_data_etl.fct_avg_temp_by_city
+[0m20:42:22.169450 [info ] [Thread-1 (]: 2 of 2 START sql view model weather.fct_avg_temp_by_city ....................... [RUN]
+[0m20:42:22.178336 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.public_data_etl.staging_weather, now model.public_data_etl.fct_avg_temp_by_city)
+[0m20:42:22.180888 [debug] [Thread-1 (]: Began compiling node model.public_data_etl.fct_avg_temp_by_city
+[0m20:42:22.194001 [debug] [Thread-1 (]: Writing injected SQL for node "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.198137 [debug] [Thread-1 (]: Began executing node model.public_data_etl.fct_avg_temp_by_city
+[0m20:42:22.217725 [debug] [Thread-1 (]: Writing runtime sql for node "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.219737 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.229006 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: BEGIN
+[0m20:42:22.232057 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m20:42:22.272133 [debug] [Thread-1 (]: SQL status: BEGIN in 0.039 seconds
+[0m20:42:22.278391 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.281112 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.fct_avg_temp_by_city"} */
+
+  create view "weather_values"."weather"."fct_avg_temp_by_city__dbt_tmp"
+    
+    
+  as (
+    -- fct_avg_temp_by_city.sql
+select
+    city,
+    date_trunc('day', recorded_at) as day,
+    avg(temperature) as avg_temperature
+from "weather_values"."weather"."staging_weather"
+group by city, day
+  );
+[0m20:42:22.286010 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.004 seconds
+[0m20:42:22.301693 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.304749 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.fct_avg_temp_by_city"} */
+alter table "weather_values"."weather"."fct_avg_temp_by_city__dbt_tmp" rename to "fct_avg_temp_by_city"
+[0m20:42:22.312293 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m20:42:22.316957 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: COMMIT
+[0m20:42:22.318496 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.319517 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: COMMIT
+[0m20:42:22.330707 [debug] [Thread-1 (]: SQL status: COMMIT in 0.009 seconds
+[0m20:42:22.342155 [debug] [Thread-1 (]: Applying DROP to: "weather_values"."weather"."fct_avg_temp_by_city__dbt_backup"
+[0m20:42:22.346700 [debug] [Thread-1 (]: Using postgres connection "model.public_data_etl.fct_avg_temp_by_city"
+[0m20:42:22.352082 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: /* {"app": "dbt", "dbt_version": "1.10.2", "profile_name": "my_weather_project", "target_name": "dev", "node_id": "model.public_data_etl.fct_avg_temp_by_city"} */
+drop view if exists "weather_values"."weather"."fct_avg_temp_by_city__dbt_backup" cascade
+[0m20:42:22.362169 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m20:42:22.367204 [debug] [Thread-1 (]: On model.public_data_etl.fct_avg_temp_by_city: Close
+[0m20:42:22.373201 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eaba5bef-d37a-4d77-9ce5-99fef9f07fd2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CC64E410>]}
+[0m20:42:22.378387 [info ] [Thread-1 (]: 2 of 2 OK created sql view model weather.fct_avg_temp_by_city .................. [[32mCREATE VIEW[0m in 0.19s]
+[0m20:42:22.384671 [debug] [Thread-1 (]: Finished running node model.public_data_etl.fct_avg_temp_by_city
+[0m20:42:22.393974 [debug] [MainThread]: Using postgres connection "master"
+[0m20:42:22.396032 [debug] [MainThread]: On master: BEGIN
+[0m20:42:22.398217 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:42:22.433972 [debug] [MainThread]: SQL status: BEGIN in 0.037 seconds
+[0m20:42:22.436341 [debug] [MainThread]: On master: COMMIT
+[0m20:42:22.436897 [debug] [MainThread]: Using postgres connection "master"
+[0m20:42:22.444676 [debug] [MainThread]: On master: COMMIT
+[0m20:42:22.447825 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m20:42:22.449356 [debug] [MainThread]: On master: Close
+[0m20:42:22.451920 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:42:22.453960 [debug] [MainThread]: Connection 'list_weather_values' was properly closed.
+[0m20:42:22.461330 [debug] [MainThread]: Connection 'list_weather_values_weather' was properly closed.
+[0m20:42:22.462368 [debug] [MainThread]: Connection 'model.public_data_etl.fct_avg_temp_by_city' was properly closed.
+[0m20:42:22.463968 [info ] [MainThread]: 
+[0m20:42:22.465546 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 1.33 seconds (1.33s).
+[0m20:42:22.467972 [debug] [MainThread]: Command end result
+[0m20:42:22.576267 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\manifest.json
+[0m20:42:22.581435 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\csczy\Documents\public-data-etl\dbt\target\semantic_manifest.json
+[0m20:42:22.596256 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\csczy\Documents\public-data-etl\dbt\target\run_results.json
+[0m20:42:22.597267 [info ] [MainThread]: 
+[0m20:42:22.598288 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:42:22.599300 [info ] [MainThread]: 
+[0m20:42:22.601519 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m20:42:22.603600 [debug] [MainThread]: Command `dbt run` succeeded at 20:42:22.603600 after 6.44 seconds
+[0m20:42:22.609550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252C901D0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252C8B928C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000252CC6CC3A0>]}
+[0m20:42:22.610634 [debug] [MainThread]: Flushing usage events
+[0m20:42:23.163992 [debug] [MainThread]: An error was encountered while trying to flush usage events

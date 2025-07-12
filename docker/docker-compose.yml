@@ -1,0 +1,63 @@
+version: "3.8"
+
+services:
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow_pass
+      POSTGRES_DB: airflow_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  airflow-webserver:
+    image: apache/airflow:2.7.1
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow_pass@postgres/airflow_db
+      AIRFLOW__CORE__FERNET_KEY: 'KeVIbNo_bf6rG0EjsOSOuYpfThKQX7e4f1AAZIaHFK8='
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW_UID: 50000
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+    command: webserver
+
+  airflow-scheduler:
+    image: apache/airflow:2.7.1
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow_pass@postgres/airflow_db
+      AIRFLOW__CORE__FERNET_KEY: 'KeVIbNo_bf6rG0EjsOSOuYpfThKQX7e4f1AAZIaHFK8='
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW_UID: 50000
+    volumes:
+      - ./dags:/opt/airflow/dags
+    command: scheduler
+
+  dbt:
+    image: quay.io/dbt-labs/dbt-postgres:1.10.0
+    depends_on:
+      - postgres
+    volumes:
+      - ./dbt:/usr/app/dbt
+    working_dir: /usr/app/dbt
+    environment:
+      DBT_USER: airflow
+      DBT_PASSWORD: airflow_pass
+      DBT_HOST: postgres
+      DBT_PORT: 5432
+      DBT_DBNAME: airflow_db
+      DBT_SCHEMA: public
+    command: ["dbt", "run"]
+
+volumes:
+  postgres_data:

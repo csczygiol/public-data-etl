@@ -1,8 +1,14 @@
 version: 2
 
+sources:
+  - name: weather_source      
+    schema: public             
+    tables:
+      - name: weather          
+
 models:
   - name: staging_weather
-  - description: "Staging model for raw weather data"
+    description: "Staging model for raw weather data"
     columns:
       - name: city
         description: "City name"
